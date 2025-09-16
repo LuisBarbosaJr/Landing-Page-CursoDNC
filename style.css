@@ -1,0 +1,210 @@
+*{
+    margin: 0px;    
+    font-family: "Inter" ;
+    font-weight: 400;
+   
+}
+
+ /*Div 1 = Menu Superior */
+ #Menu-Superior{
+    
+    background-image: url(./Imagens/Backgroud-menusuperior.svg);
+    color: white;
+}
+
+#Logo-DNC{
+    width: 125px;
+    height: 62px;
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#Titulo-menusuperior {
+    margin-top: 71px;
+    margin-left: 172px;
+    font-size: 40px;
+  
+}
+
+#Texto-menusuperior {
+    margin-top: 32px;
+    margin-left: 172px;
+    font-size: 20px;
+    padding-bottom: 151px;
+}
+
+/*Div 2 = Menu Informacional */
+
+#Menu-Informacional {
+    background-color: #EAECE5;
+    height: 170px;
+
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+    text-align: center;
+    align-items: center;
+}
+
+.Texto-Informativo{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    gap: 16px;    
+}
+
+/*Div 3 = Seção Video */
+
+#Secao-Video{
+    height: 460px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#Video{
+    margin-top: 80px;
+    margin-left: 174px;
+}
+
+#Informativo-Video{
+    margin-top: 97px;
+    
+}
+
+#Titulo-Video{
+    line-height: 150%;
+    color: #247BA0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#Texto-Video{
+    line-height: 150%;
+    margin-top: 24px;
+    color: #383838;
+    font-size: 16px;
+}
+
+/*Div = Carrossel */
+
+#Carrossel{
+    background-color: #247BA0;
+    height: 444px;
+    
+
+}
+
+#Titulo-Carrossel{
+    text-align:  center;
+    padding: 80px 0px 64px 0px;
+    color: #EAECE5;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+#Secao-Cards{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+.Cards{
+    height: 172px;
+    width: 532px;
+    margin-left: 80px;
+}
+
+.Div-Setas {   
+    display: grid;
+    height: 172px;
+   
+    place-items: center;
+}
+
+.Setas{
+    margin-top: 55%;
+    display: grid;
+    height: 78px;
+    width: 78px;
+
+    cursor: pointer;
+}
+
+.Setas:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+#Seta-Esquerda{
+    display: none;
+}
+
+#Leonardo{
+    margin-left: 30px;
+}
+
+#Samantha{
+    margin-left: 30px;
+    display: none;
+}
+
+/* Div 4 = Formulario */
+
+#Formulario{
+    text-align:  center;
+
+}
+
+#Titulo-Formulario{
+    padding: 22px 0px 27.5px 0px;
+    color: #383838;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+input{
+    background-color: #EAECE5;
+    
+    height: 53px;
+    width: 413px;
+    padding-left: 19px;
+   
+    border-radius: 8px;
+
+    margin: 19.5px;
+    border: 0;
+}
+
+
+button{
+    margin-top: 20.5px;
+    Margin-bottom: 100px;
+
+    background-color: #247BA0;
+    height: 53px;
+    width: 335px;
+    border-radius: 8px;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #247ba0e5;
+    color: #ffffff;
+
+    transform: translateY(-10px);
+    transition: 0.5s;
+
+    box-shadow: 0px 15px 20px #0c4963c0;
+}
